@@ -25,7 +25,8 @@ header{
 nav{
     background-color: rgb(102, 102, 102);
     padding: 3px;
-    box-shadow: 3px 3px 5px 1px  rgba(0, 0, 0, 0.466);
+    box-shadow: 3px 3px 5px 1px  rgba(0, 0, 0, 0.137);
+    border-radius: 7px;
     
 }
 nav  > a {
@@ -37,6 +38,7 @@ nav  > a {
 
 nav > a:hover{
     text-decoration: underline;
+    
 }
 
 
@@ -50,7 +52,7 @@ main{
 article{
     background-color: lightgray;
     padding: 5px;
-
+    
 }
 
 article > aside{
