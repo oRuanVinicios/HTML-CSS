@@ -5,24 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
+            
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
-            background-size: cover; /*recorta o fundo de acordo com o tamanho da tela ou janela do navegador*/
+            background-size: cover;
+            background-attachment: fixed;
+            */
+            
 
-            background-attachment: fixed;/*com este comando eu consigo fixar a imagem impedindo que ela duplique ao rolar o conteudo*/
+                /*shorthand - background color > image >position > repeat > [size] > attachiment */
+
+            background:black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main{
             padding: 10px; /*comprime o conteudo para o centro*/
             background-color: white;
-            width: 400px;
+            width: 500px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 10px;
+            
 
         }
 
